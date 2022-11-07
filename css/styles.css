@@ -1,0 +1,154 @@
+.botones{
+    padding-left: 40%;
+  }
+
+.botones button{
+   
+background-color: rgb(172, 172, 177);
+border: none;
+  }
+
+
+
+.botones button:hover{
+   
+background-color: rgb(0, 102, 235);
+color: white;
+cursor: pointer;
+  }
+
+ nav {
+    display: inline-block;
+   
+ }
+
+ li {
+   
+    
+    display: inline-block;
+ }
+ ul{
+    
+    display: inline-block;
+    
+ }
+ header{
+    padding-left: 22%;
+    padding-top: 3%;
+ }
+ main{
+    padding-top: 5%;
+ }
+ 
+
+ header nav a{
+   
+  
+    color: black;
+ }
+ a{
+    text-decoration: none;
+ }
+ header a{
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    
+    color: #2196F3;
+ }
+
+ header a:hover{
+
+    
+    color: #000000;
+ }
+
+
+ header ul li a {
+    color: black;
+    
+
+ } 
+
+ header ul li a:hover{
+
+    color: #2196F3;
+    background-color: rgb(213, 213, 216);
+ }
+
+
+ address:hover{
+    color: white;
+ }
+
+ footer a {
+    padding-left: 5%;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    
+    color: #2196F3;
+ }
+
+ footer a:hover {
+
+    
+    color: #000000;
+
+ }
+
+ footer > address {
+    padding-left: 5%;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    
+    color: #2196F3;
+ }
+
+
+ address a:hover{
+    color: #000000;
+
+ }
+
+ body{
+background-color: #E5E5E5;
+font-family: Roboto;
+font-size: 18px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0.06em;
+text-align: left;
+
+ }
+
+ .info h3{
+    font-family: Roboto;
+font-size: 18px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0.06em;
+text-align: left;
+
+ }
+
+ .botones button{
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0.03em;
+text-align: center;
+
+ }
+
