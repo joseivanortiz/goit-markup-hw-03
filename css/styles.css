@@ -6,6 +6,8 @@
    
 background-color: rgb(172, 172, 177);
 border: none;
+margin-left: 0px;
+    margin-right: 0px;
   }
 
 
@@ -28,7 +30,8 @@ cursor: pointer;
     display: inline-block;
  }
  ul{
-    
+    margin-left: 0px;
+    margin-right: 0px;
     display: inline-block;
     
  }
@@ -38,8 +41,10 @@ cursor: pointer;
  }
  main{
     padding-top: 5%;
+    margin: 0px;
  }
  
+
 
  header nav a{
    
@@ -129,10 +134,11 @@ font-weight: 700;
 line-height: 36px;
 letter-spacing: 0.06em;
 text-align: left;
+margin: 0px;
 
  }
 
- .info h3{
+ .container h3{
     font-family: Roboto;
 font-size: 18px;
 font-weight: 700;
@@ -151,4 +157,38 @@ letter-spacing: 0.03em;
 text-align: center;
 
  }
+
+ .container {
+   display: flex;
+ 
+
+   justify-content: center;
+
+   flex-wrap:wrap;
+  
+ flex-basis:1200px;  
+ 
+ align-items:baseline;                                   
+ }
+
+ .container ul{
+   display: flex;
+   align-content: center;
+ }
+
+ .container footer{
+   flex-basis:1200px;  
+   background-color: #00000088;
+ }
+ 
+ 
+ .container header{
+   display: flex;
+
+ 
+ }
+
+ header {
+   border-bottom: 5px solid #b4b4b4;
+}
 
